@@ -23,9 +23,8 @@ var FullscreenMixin = {
   },
 
   requestFullscreen: function (ref) {
-    if (ref && ref.getDOMNode) {
-      var elem = ref.getDOMNode();
-      screenfull.request(elem);
+    if (ref) {
+      screenfull.request(ref);
     } else {
       screenfull.request();
     }

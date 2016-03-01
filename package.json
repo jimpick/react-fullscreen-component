@@ -1,9 +1,9 @@
 {
-  "name": "react-fullscreen-component",
+  "name": "@jimpick/react-fullscreen-component",
   "version": "0.0.5",
   "description": "Simple component that let's you create fullscreen toggles",
   "main": "index.js",
-  "repository": "jeroencoumans/react-fullscreen-component",
+  "repository": "jimpick/react-fullscreen-component",
   "scripts": {
     "start": "webpack --progress --colors --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
